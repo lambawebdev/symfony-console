@@ -1,0 +1,19 @@
+{
+    "name": "hello/hello_console",
+    "description": "git repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lamba",
+            "email": "eclipjke@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.2"
+    },
+    "autoload": {
+	    "psr-4": {
+		    "App\\": ["src"]
+	    }
+    }
+}
